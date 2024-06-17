@@ -1,0 +1,522 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <title>Healthy Meatball</title>
+
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- google font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;700&display=swap">
+
+
+        <!-- js -->
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body data-spy="scroll" data-target="#navbar" data-offset="120" >
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header visible-xs">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><h2>Meat King</h2></a>
+                </div><!-- navbar-header -->
+                <div id="navbar" class="navbar-collapse collapse">
+                    <div class="hidden-xs" id="logo"><a href="#header">
+                            <img src="img/logo.png" alt="">
+                        </a></div>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#story">Tiêu Chí</a></li>
+                        <li><a href="#facts">Đánh Giá</a></li>
+                        <li><a href="#food-menu">Menu</a></li>
+                        <li><a href="#special-offser">Combo</a></li>
+                        <li><a href="#reservation">Đăng Ký</a></li>
+                        <li><a href="#chefs">Feedbacks</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#loginModal">Đăng Nhập</a></li>
+
+                        <!--fix for scroll spy active menu element-->
+                        <li style="display:none;"><a href="#header"></a></li>
+
+                    </ul>
+
+                </div><!--/.navbar-collapse -->
+            </div><!-- container -->
+        </div><!-- menu -->
+
+        <div id="header">
+            <div class="bg-overlay"></div>
+            <div class="center text-center">
+                <div class="banner">
+                    <h1 class="">Healthy Meatball</h1>
+                </div>
+                <div class="subtitle"><h4>Ăn Ngon Dáng Đẹp</h4></div>
+            </div>
+            <div class="bottom text-center">
+                <a id="scrollDownArrow" href="#"><i class="fa fa-chevron-down"></i></a>
+            </div>
+        </div>
+        <!-- /#header -->
+
+        <div id="story" class="light-wrapper">
+            <section class="ss-style-top"></section>
+            <div class="container inner">
+                <h2 class="section-title text-center">Tiêu chí "3 KHÔNG"</h2>
+                <p class="lead main text-center">KHÔNG MỠ ĐỘNG VẬT - KHÔNG ĐƯỜNG BỘT NGỌT - KHÔNG HÀN THE, PHỤ GIA GÂY HẠI</p>
+                <div class="row text-center story">
+                    <div class="col-sm-4">
+                        <div class="col-wrapper">
+                            <div class="icon-wrapper">
+                                <img src="icons/svg 2/steak-3-svgrepo-com.svg" alt="Meat Icon" />
+                            </div>
+                            <h3>Chất Lượng Sản Phẩm</h3>
+                            <p>Tất cả sản phẩm đều hoàn toàn từ thịt và gia vị eat clean. Quy trình sản xuất được cấp chứng nhận ATVSTP. Nutrition được kiểm định chính xác tại phòng Lab.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="col-wrapper">
+                            <div class="icon-wrapper"> <i class="fa  fa-cutlery"></i> </div>
+                            <h3>Quy trình sản xuất</h3>
+                            <p>Sử dụng hoàn toàn gia vị ăn kiêng thay thế tốt cho sức khỏe: đường ăn kiêng, dầu Olive, cốt nước mắm, tiêu, tỏi,… Công nghệ đóng gói chân không ức chế vi khuẩn giúp giữ nguyên hương vị tươi ngon và hạn chế vi sinh.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="col-wrapper">
+                            <div class="icon-wrapper">
+                                <img src="icons/svg 2/5_star_Rating.png"/>
+                            </div>
+                            <h3>Feedback khách hàng</h3>
+                            <p>Feedback chân thật từ khách hàng. Luôn được tin dùng bởi các HLV, vận động viên chuyên nghiệp.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.services --> 
+            </div>
+            <!-- /.container -->
+            <section class="ss-style-bottom"></section>
+        </div><!-- #story -->
+
+
+        <div id="facts" class="parallax parallax2 facts">
+            <div class="container inner">
+                <div class="row text-center services-3">
+                    <div class="col-sm-4">
+                        <div class="col-wrapper">
+                            <div class="icon-border bm10"> 
+                                <img src="icons/svg 2/plate7.svg"/>
+                            </div>
+                            <h4>20+</h4>
+                            <p>Sản phẩm Healthy</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="col-wrapper">
+                            <div class="icon-border bm10"> 
+                                <img class="icon_star" src="icons/svg 2/iconizer-star-svgrepo-com.svg"/>
+                            </div>
+                            <h4>5.0</h4>
+                            <p>Đánh giá trên Shopee</p>
+                        </div>
+                    </div>
+                    <!--                    <div class="col-sm-3">
+                                            <div class="col-wrapper">
+                                                <div class="icon-border bm10"> <i class="fa fa-truck"></i> </div>
+                                                <h4>2188764</h4>
+                                                <p>Pizza Delivered</p>
+                                            </div>
+                                        </div>-->
+                    <div class="col-sm-4">
+                        <div class="col-wrapper">
+                            <div class="icon-border bm10"> <i class="fa fa-users"></i> </div>
+                            <h4>5700+</h4>
+                            <p>Followers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container --> 
+        </div><!-- #facts -->
+
+        <div id="food-menu" class="light-wrapper">
+            <section class="ss-style-top"></section>
+            <div class="container inner">
+                <h2 class="section-title text-center">Menu</h2>
+                <p class="lead main text-center">Hương vị chuẩn đầu bếp 5 sao!</p>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                        <div class="menu-titles"><h1 class="">Thịt Viên Healthy</h1></div>
+                        <div class="menu-images "><img src="img/menu/menu_thit_vien.png" alt="Ice Drinks"></div>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                        <div class="menu-titles"><h1 class="">Thăn Bò & Ức Gà</h1></div>
+                        <div class="menu-images "><img src="img/menu/menu_than_bo_uc_ga.png" alt="Ice Drinks"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container -->
+            <section class="ss-style-bottom"></section>
+        </div><!--/#food-menu-->
+
+        <div id="special-offser" class="parallax pricing">
+            <div class="container inner">
+
+                <h2 class="section-title text-center">COMBO ĐẶC BIỆT</h2>
+                <p class="lead main text-center">HOÀN TOÀN TỪ THỊT VÀ GIA VỊ ĂN KIÊN!</p>
+
+                <div  style = "margin-left: 80px;"class="row combo_container">
+                    <div class="col-md-6 col-sm-6">
+
+                        <div class="pricing-item">
+
+                            <a href="#"><img class="img-responsive img-thumbnail" src="img/combo/combo_tron_vi.png" alt=""></a>
+
+                            <div class="pricing-item-details">
+
+                                <h3><a href="#">Combo Trọn Vị</a></h3>
+
+                                <p>2KG thịt viên có đủ 5 loại thịt: </p>
+                                <p>Tôm - Cá hồi - Cá thu - Gà - Bò.</p>
+                                <a class="btn btn-danger" href="#">Mua Ngay</a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--price tag-->
+                            <span class="hot-tag br-red">595K</span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+
+                        <div class="pricing-item">
+
+                            <a href="#"><img class="img-responsive img-thumbnail" src="img/combo/special_combo.png" alt=""></a>
+
+                            <div class="pricing-item-details">
+
+                                <h3><a href="#">Special Combo</a></h3>
+
+                                <p>1KG thịt viên 5 loại:</p>
+                                <p>Gà - Bò - Tôm - Cá thu - Cá hồi.</p>
+                                <p>4 gói ức gà ăn liền 4 vị.</p>
+                                <p>1 gói Beefsteak sốt tiêu.</p>
+                                <p>1 gói bò băm sốt gà.</p>
+                                <a class="btn btn-danger" href="#">Mua Ngay</a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--price tag-->
+                            <span class="hot-tag br-lblue">479K</span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix visible-md"></div>
+                    <div class="col-md-6 col-sm-6">
+
+                        <div class="pricing-item">
+
+                            <a href="#"><img class="img-responsive img-thumbnail" src="img/combo/combo_hai_san.png" alt=""></a>
+
+                            <div class="pricing-item-details">
+
+                                <h3><a href="#">Combo Hải Sản</a></h3>
+
+                                <p>400g cá hồi.</p>
+                                <p>400g tôm.</p>
+                                <p>400g cá thu.</p>
+
+                                <a class="btn btn-danger" href="#">Mua Ngay</a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--price tag-->
+                            <span class="hot-tag br-green">379K</span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+
+                        <div class="pricing-item">
+
+                            <a href="#"><img class="img-responsive img-thumbnail" src="img/combo/combo_sieu_nac.png" alt=""></a>
+
+                            <div class="pricing-item-details">
+
+                                <h3><a href="#">Combo Siêu Nạc</a></h3>
+
+                                <p>1KG ức gà viên.</p>
+                                <p>1KG thăn bò viên.</p>
+
+                                <a class="btn btn-danger" href="#">Mua Ngay</a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--price tag-->
+                            <span class="hot-tag br-red">529K</span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12">
+
+                        <div class="pricing-item">
+
+                            <a href="#"><img class="img-responsive img-thumbnail" src="img/combo/combo_dung_thu.png" alt=""></a>
+
+                            <div class="pricing-item-details">
+
+                                <h3><a href="#">Combo Dùng Thử</a></h3>
+
+                                <p>1KG thịt viên 5 loại thịt:</p>
+                                <p>Tôm - Cá hồi - Cá thu - Gà - Bò.</p>
+                                <a class="btn btn-danger" href="#">Mua Ngay</a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <!--price tag-->
+                            <span class="hot-tag br-lblue">299K</span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- /.container --> 
+        </div><!-- /#special-offser -->
+
+        <div id="reservation" class="light-wrapper">
+            <section class="ss-style-top"></section>
+            <div class="container inner">
+                <h2 class="section-title text-center">Đăng Ký Tài Khoản</h2>
+                <p class="lead main text-center">Đăng ký ngay để nhận nhiều ưu đãi hấp dẫn!</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form class="form form-table" method="post" name="">
+                            <div class="form-group">
+                                <h4>Thông Tin Cá Nhân</h4>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 form-group">
+                                    <label class="sr-only" for="first_name1">Họ</label>
+                                    <input class="form-control hint" type="text" id="first_name1" name="first_name" placeholder="Họ" required="">
+                                </div>
+                                <div class="col-lg-6 col-md-6 form-group">
+                                    <label class="sr-only" for="last_name1">Tên</label>
+                                    <input class="form-control hint" type="text" id="last_name1" name="last_name" placeholder="Tên" required="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 form-group">
+                                    <label class="sr-only" for="email1">Email</label>
+                                    <input class="form-control hint" type="email" id="email1" name="email" placeholder="Email@domain.com" required="">
+                                </div>
+                                <div class="col-lg-6 col-md-6 form-group">
+                                    <label class="sr-only" for="phone1">SDT</label>
+                                    <input class="form-control hint" type="text" id="phone1" name="phone" placeholder="Số điện thoại" required="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 form-group">
+                                    <label class="sr-only" for="reserv_date1">Mật Khẩu</label>
+                                    <input class="form-control datepicker hasDatepicker hint" type="text" id="reserv_date1" name="reserv_date" placeholder="Mật khẩu" required="">
+                                </div>
+                                <div class="col-lg-6 col-md-6 form-group">
+                                    <label class="sr-only" for="numb_guests1">Xác Nhận Mật Khẩu</label>
+                                    <input class="form-control hint" type="text" id="numb_guests1" name="numb_guests" placeholder="Xác Nhận Mật Khẩu" required="">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <button type="submit" class="btn btn-danger btn-lg">Đăng Ký!</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!-- col-md-6 -->
+                    <div class="col-md-5 col-md-offset-1">
+
+                        <h3><i class="fa fa-clock-o fa-fw"></i>Giờ Hoạt Động</h3>
+                        <h4 style="color: green;">Luôn mở cửa</h4>
+
+                        <h3><i class="fa fa-map-marker fa-fw"></i>Địa Chỉ</h3>
+                        <p>87 Nguyễn Đình Chính, P15, Phú Nhuận, HCM, Ho Chi Minh City, Vietnam</p>
+
+                        <h3><i class="fa fa-mobile fa-fw"></i>Contacts</h3>
+                        <p>Email: <a href="mailto:healthymeatball@gmail.com">healthymeatball@gmail.com</a></p>
+                        <p>Tư vấn - Đặt Hàng: 0704 728 952</p>
+                        <p>Fanpage: <a href="https://www.facebook.com/meoeatclean">https://www.facebook.com/meoeatclean</a></p>
+                        <p>Shopee: <a href="http://shopee.vn/healthy_meatball_anngondangdep">http://shopee.vn/healthy_meatball_anngondangdep</a></p>
+
+                    </div><!-- col-md-6 -->
+                </div>
+                <!-- /.services --> 
+            </div>
+            <!-- /.container -->
+            <section class="ss-style-bottom"></section>
+        </div><!-- #reservation -->
+
+        <div id="chefs" class="parallax pricing">
+            <div class="container inner">
+
+                <h2 class="section-title text-center">FEEDBACKS</h2>
+                <p class="lead main text-center">Luôn được tin dùng bởi các HLV, vận động viên chuyên nghiệp!</p>
+
+                <div class="row text-center chefs">
+                    <div class="col-sm-4">
+                        <div class="col-wrapper">
+                            <div class="icon-wrapper">
+                                <img src="img/feedback/feedback1.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="col-wrapper">
+                            <div class="icon-wrapper">
+                                <img src="img/feedback/feedback7.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <!--<div class="col-wrapper">-->
+                        <div class="icon-wrapper">
+                            <img src="img/feedback/feedback5.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center chefs">
+                    <div class="col-sm-4">
+                        <div class="col-wrapper">
+                            <div class="icon-wrapper">
+                                <img src="img/feedback/feedback6.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="col-wrapper">
+                            <div class="icon-wrapper">
+                                <img src="img/feedback/feedback4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <!--<div class="col-wrapper">-->
+                        <div class="icon-wrapper">
+                            <img src="img/feedback/feedback3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- /.container --> 
+    </div><!-- /#chefs -->
+
+    <footer id="footer" class="dark-wrapper">
+        <section class="ss-style-top"></section>
+        <div class="container inner">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3><i class="fa fa-map-marker fa-fw"></i>Địa Chỉ</h3>
+                    <p>87 Nguyễn Đình Chính, P15, Phú Nhuận, HCM, Ho Chi Minh City, Vietnam</p>
+
+                    <h3><i class="fa fa-mobile fa-fw"></i>Contacts</h3>
+                    <p>Email: <a href="mailto:healthymeatball@gmail.com">healthymeatball@gmail.com</a></p>
+                    <p>Tư vấn - Đặt Hàng: 0704 728 952</p>
+                    <p>Fanpage: <a href="https://www.facebook.com/meoeatclean">https://www.facebook.com/meoeatclean</a></p>
+                    <p style="word-wrap: break-word; word-break: break-all;">Shopee: <a href="http://shopee.vn/healthy_meatball_anngondangdep">http://shopee.vn/healthy_meatball_anngondangdep</a></p>
+                    &copy; Copyright MeatKing 2014
+                    <br/>Theme By <a href="http://www.Themewagon.com">ThemeWagon</a>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Danh Mục Sản Phẩm</h4>
+                    <p>Trang chủ</p>
+                    <p>Thịt viên Healthy</p>
+                    <p>Ức gà ăn liền</p>
+                    <p>Combo dùng thử</p>
+                    <p>Giới thiệu</p>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Chính Sách</h4>
+                    <p>Chính sách đổi trả</p>
+                    <p>Chính sách kiểm hàng</p>
+                    <p>Hình thức thanh toán</p>
+                    <p>Liên hệ</p>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Tài Khoản Xã Hội</h4>
+                    <div class="social-bar">
+                        <div class="icon_footer">
+                            <a href = "https://www.facebook.com/meoeatclean"><img src="icons/svg 2/facebook-svgrepo-com.svg" /></a>
+                            <a href="http://shopee.vn/healthy_meatball_anngondangdep"><img src="icons/svg 2/shopee-svgrepo-com.svg" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/jquery.actual.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+<li><a href="#" data-toggle="modal" data-target="#loginModal">Đăng Nhập</a></li>
+
+<!-- Login Modal -->
+<!-- Login Modal -->
+<div id="loginModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body text-center">
+                <img src="img/logo2.jpg" alt="Logo" class="login-logo">
+                <h4 class="modal-title">ĐĂNG NHẬP TÀI KHOẢN</h4>
+                <p>Bạn chưa có tài khoản? <a href="#register">Đăng ký tại đây</a></p>
+                <form>
+                    <div class="form-group text-left">
+                        <label for="email">Email *</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group text-left">
+                        <label for="pwd">Mật khẩu *</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Mật khẩu">
+                    </div>
+                    <div class="form-group text-left">
+                        <a href="#forgot-password">Quên mật khẩu? Nhấn vào đây</a>
+                    </div>
+                    <button type="submit" class="btn btn-login-modal">Đăng Nhập</button>
+                </form>
+                <!-- Add social login buttons here if needed -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</html>
